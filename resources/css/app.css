@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Satoshi, sans-serif;
+}
+
+@font-face {
+    font-family: "OverusedGrotesk";
+    src: local("OverusedGrotesk-Bold"),
+        url("../../public/fonts/OverusedGrotesk-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "OverusedGrotesk";
+    src: local("OverusedGrotesk-Roman"),
+        url("../../public/fonts/OverusedGrotesk-Roman.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OverusedGrotesk";
+    src: local("OverusedGrotesk-Medium"),
+        url("../../public/fonts/OverusedGrotesk-Medium-BF64eeac18163be.ttf")
+            format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "OverusedGrotesk";
+    src: local("OverusedGrotesk-Semibold"),
+        url("../../public/fonts/OverusedGrotesk-SemiBold.ttf")
+            format("truetype");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Bold"),
+        url("../../public/fonts/Satoshi-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Italic"),
+        url("../../public/fonts/Satoshi-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Medium"),
+        url("../../public/fonts/Satoshi-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Regular"),
+        url("../../public/fonts/Satoshi-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #a185c7, #cd7a7a, #fea501);
+    width: fit-content;
+    margin-inline: auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
